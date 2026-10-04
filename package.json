@@ -1,0 +1,20 @@
+{
+  "name": "courier-phone-gate",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/logistics_service.ts",
+    "demo": "tsx scripts/delivery_walkthrough.ts",
+    "test": "tsx --test test/shipment_decision.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
